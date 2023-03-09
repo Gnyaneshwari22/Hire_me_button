@@ -1,0 +1,53 @@
+  .container{
+    height: 500px;
+    width: 500px;
+    background-color: white;
+    border: 20px solid black;
+    display: flex;
+  }
+  .but{
+    margin: 65px;
+    position:relative ;
+    padding: 50px;
+    margin-bottom: 100px;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    border: 2px solid  white;
+    justify-content: center;
+    align-items: center;
+   align-self: center;
+    /* position: relative; */
+  }
+  button{
+    /* padding: 50px; */
+    /* height: 40px;*/
+     width: 100px;
+    margin: 100px;
+    position: relative;
+    margin-bottom: 100px;
+    border-right: 300px;
+    /* justify-content: center;
+    align-items: center; */
+    box-sizing: border-box;
+    background-color: brown;
+    color: white;
+    box-shadow: 1px 1px 3px;
+    border-radius: 4px;
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+    transition: background-color 2s,font-size 2s,transform 2s,cursor 1ms;
+  }
+
+  
+  button:hover{
+    background-color: blue;
+    font-size: large;
+    transform: scale(1.5);
+    cursor: grab;
+    /* height: 20px; */
+  }
+ 
